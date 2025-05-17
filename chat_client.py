@@ -33,7 +33,7 @@ entry_box = tk.Entry(root, width=50)
 entry_box.pack(padx=10, pady=10)
 entry_box.bind("<Return>", lambda e: send_message())
 
-online_users = tk.Listbox(root, height=8, width=25)
+online_users = tk.Listbox(root, height=9, width=25)
 online_users.pack(side=tk.LEFT, padx=5)
 
 def update_user_list(users):
