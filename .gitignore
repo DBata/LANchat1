@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+generate_cert.py
+server.crt
+server.key
+server_logs.txt
